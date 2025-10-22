@@ -29,12 +29,12 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
    ```bash
    git clone https://github.com/nehaprs/KPMP_ML.git
    cd KPMP_ML
-   
+---  
 Create and activate the conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate environment.yml
-
+---
 
 Analysis Workflow:
 1. Data Preparation
