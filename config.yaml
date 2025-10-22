@@ -1,1 +1,12 @@
+# ======================
+#  Data preprocessing
+# ======================
+missing_value_replacement: 
 
+drop_columns:
+  - "Heme index"
+  - "Lipemic index"
+  - "Icteric index"
+merge_columns:
+  - ["Days_Post_Biopsy", "Biopsy Time Interval Days Post"]
+  - ["Creatinine Index (mg/kg/day)", "Creatinine Index(mg/kg/day)"]
