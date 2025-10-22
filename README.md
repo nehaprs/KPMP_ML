@@ -47,7 +47,7 @@ The data used in this study can be obtained from the publicly available clinaica
 [Clinical data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Clinical&filters%5B1%5D%5Btype%5D=any)
 
 [Biomarker Data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Biomarker&filters%5B1%5D%5Btype%5D=any&sort%5B0%5D%5Bfield%5D=workflow_type&sort%5B0%5D%5Bdirection%5D=asc)
-(Plasma and Urine Biomarker Data wereconsidered for this study.)
+(Plasma and Urine Biomarker Data were considered for this study.)
 
  **Data Preparation**
  - Import Datasets from the public repositories linked above
