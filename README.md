@@ -63,13 +63,13 @@ The data used in this study can be obtained from the publicly available clinaica
 - Model evaluation with silhouette score and Davies-Bouldin Index:
    https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_preprocessing_kmeans_clustering.ipynb
 <img width="567" height="455" alt="silhouette" src="https://github.com/user-attachments/assets/c0714fe5-9771-42fd-8891-979c79c7bf4c" />
-Figure 1: silhouette plot
+
   
 <img width="567" height="455" alt="DBI" src="https://github.com/user-attachments/assets/34d0d79e-75dd-4603-b934-2586c785134e" />
-Figure 2: Davis-Bouldin Index plotted
+
 
  
-**Visualization and Results**
+**Results**
    - 2 clusters of CKD patients obtained: one with 192 participants and another with 14 participants.
    
 Save all outputs to the results/ directory.
