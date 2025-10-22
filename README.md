@@ -12,7 +12,7 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
 ---
 
 ##  Repository Structure:
-
+```
 
 ├── scripts/ 
 ├── results/ 
@@ -20,20 +20,22 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
 ├── config.yaml 
 ├── LICENSE 
 └── README.md 
-
+```
 ---
 
 ##  Setup
 
 1. **Clone the repository:**
-   ```bash
+ ```
+   
    git clone https://github.com/nehaprs/KPMP_ML.git
    cd KPMP_ML
----  
+```
 Create and activate the conda environment:
-```bash
+```
 conda env create -f environment.yml
 conda activate environment.yml
+```
 ---
 
 Analysis Workflow:
