@@ -11,7 +11,7 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
 
 ---
 
-##  Repository Structure
+##  Repository Structure:
 
 
 ├── scripts/ 
@@ -36,7 +36,7 @@ conda env create -f environment.yml
 conda activate environment.yml
 
 
-  Analysis Workflow
+Analysis Workflow:
 1. Data Preparation
 Import raw datasets from 
 
