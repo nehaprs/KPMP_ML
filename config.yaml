@@ -1,12 +1,21 @@
 # ======================
 #  Data preprocessing
 # ======================
-missing_value_replacement: 
-
+Raw_data:
+  - Clinical data
+  - Plasma Biomarker Data (select only datasets with patient ID)
+  - Urine Biomarker Data (select only datasets with patient ID)
+drop_data:
+  -non-CKD Patients
+  -Follow-up visits
 drop_columns:
+-Columns with <10 entries
+- QC metrics without biological relevance
   - "Heme index"
   - "Lipemic index"
   - "Icteric index"
 merge_columns:
   - ["Days_Post_Biopsy", "Biopsy Time Interval Days Post"]
   - ["Creatinine Index (mg/kg/day)", "Creatinine Index(mg/kg/day)"]
+  
+missing_value_replacement: 
