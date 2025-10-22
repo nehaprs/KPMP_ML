@@ -50,12 +50,6 @@ Import raw datasets from
 
 Save all outputs to the results/ directory.
 
-5. Reproducibility
-The analysis can be fully rerun by:
-
-bash
-Copy code
-python scripts/run_analysis.py
 
  Dependencies
 All dependencies are managed through environment.yml.
