@@ -40,7 +40,7 @@ conda activate environment.yml
 
 Analysis Workflow:
 1. Data Preparation
-Import raw datasets from 
+ Import raw datasets from 
 
 
 
@@ -54,12 +54,12 @@ Import raw datasets from
 Save all outputs to the results/ directory.
 
 
- Dependencies
+Dependencies:
 All dependencies are managed through environment.yml.
 
 
 
-License
+License:
 This project is licensed under the MIT License.
 
 
