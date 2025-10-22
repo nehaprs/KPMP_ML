@@ -49,21 +49,22 @@ The data used in this study can be obtained from the publicly available clinaica
 [Biomarker Data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Biomarker&filters%5B1%5D%5Btype%5D=any&sort%5B0%5D%5Bfield%5D=workflow_type&sort%5B0%5D%5Bdirection%5D=asc)
 (Plasma and Urine Biomarker Data were considered for this study.)
 
- **Data Preparation**
+ **Data Preparation and Feature Filtering**
  - Import Datasets from the public repositories linked above
  - Extract clinical, plasma biomarker, and urine biomarker information of participants with CKD from all the datasets:
    https://github.com/nehaprs/KPMP_ML/blob/main/scripts/01_consolidate_data.ipynb
  - Consolidate all the datasets, select for the first appointment per patient, and remove features without biological   relevance:
     https://github.com/nehaprs/KPMP_ML/blob/main/scripts/02_combine_and_clean.ipynb
  - Further Data Preprocessing: imputation, normalization, scaling etc:
-      https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_imputation_normalization.ipynb
+      https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_preprocessing_kmeans_clustering.ipynb
    
-2. Feature Filtering
+**Model Building**
+- Unsupervised learning using k-means clustering.
+- Model evaluation with silhouette score and Davies-Bouldin Index:
+   https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_preprocessing_kmeans_clustering.ipynb
 
-
-3. Model Building 
-
-4. Visualization and Results
+**Visualization and Results**
+   - 2 clusters of CKD patients obtained: one with 192 participants and another with 14 participants.
 
 Save all outputs to the results/ directory.
 
