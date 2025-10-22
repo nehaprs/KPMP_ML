@@ -77,7 +77,7 @@ The data used in this study can be obtained from the publicly available clinical
    - PCA Plot with the clusters indicated: 
    <img width="590" height="490" alt="PCA" src="https://github.com/user-attachments/assets/163e95ee-d86e-4041-887c-c240ab3124f4" />
 
-outputs are saved to the results/ directory.
+Outputs are saved to the results/ directory.
 
 
 Dependencies:
