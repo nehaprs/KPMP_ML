@@ -53,9 +53,9 @@ The data used in this study can be obtained from the publicly available clinaica
  - Import Datasets from the public repositories linked above
  - Extract clinical, plasma biomarker, and urine biomarker information of participants with CKD from all the datasets:
    https://github.com/nehaprs/KPMP_ML/blob/main/scripts/01_consolidate_data.ipynb
-  - Consolidate all the datasets, select for the first appointment per patient, and remove features without biological   relevance:
+ - Consolidate all the datasets, select for the first appointment per patient, and remove features without biological   relevance:
     https://github.com/nehaprs/KPMP_ML/blob/main/scripts/02_combine_and_clean.ipynb
-    - Further Data Preprocessing: imputation, normalization, scaling etc:
+ - Further Data Preprocessing: imputation, normalization, scaling etc:
       https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_imputation_normalization.ipynb
    
 2. Feature Filtering
