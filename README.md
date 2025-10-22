@@ -41,18 +41,23 @@ conda activate environment.yml
 
 ## Analysis Workflow:
 
-Data:
-The data is obtained from the publicly available clinaical and biomarker data from the [Kidney Precision Medicine Project](https://www.kpmp.org/).
+**Data**:
+The data used in this study can be obtained from the publicly available clinaical and biomarker data from the [Kidney Precision Medicine Project](https://www.kpmp.org/).
+
 [Clinical data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Clinical&filters%5B1%5D%5Btype%5D=any)
 
 [Biomarker Data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Biomarker&filters%5B1%5D%5Btype%5D=any&sort%5B0%5D%5Bfield%5D=workflow_type&sort%5B0%5D%5Bdirection%5D=asc)
 (Plasma and Urine Biomarker Data wereconsidered for this study.)
 
-1. Data Preparation
- Import raw datasets from 
-
-
-
+ **Data Preparation**
+ - Import Datasets from the public repositories linked above
+ - Extract clinical, plasma biomarker, and urine biomarker information of participants with CKD from all the datasets:
+   https://github.com/nehaprs/KPMP_ML/blob/main/scripts/01_consolidate_data.ipynb
+  - Consolidate all the datasets, select for the first appointment per patient, and remove features without biological   relevance:
+    https://github.com/nehaprs/KPMP_ML/blob/main/scripts/02_combine_and_clean.ipynb
+    - Further Data Preprocessing: imputation, normalization, scaling etc:
+      https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_imputation_normalization.ipynb
+   
 2. Feature Filtering
 
 
@@ -72,8 +77,6 @@ License:
 This project is licensed under the MIT License.
 
 
-
-Example Results
 
 
 
