@@ -1,4 +1,4 @@
-# Unsupervised integration of multi-biomarker and clinical KPMP data to reveal molecular subtypes of chronic kidney disease (CKD)
+# Unsupervised integration of biomarker and clinical KPMP data to reveal molecular subtypes of chronic kidney disease (CKD)
 
 A brief description
 
