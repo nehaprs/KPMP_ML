@@ -67,6 +67,6 @@ This project is licensed under the MIT License.
  Example Output
 
 
- Contact
+
 For questions or contributions, please contact nehaprs@udel.edu, julngu@udel.edu, or svalipou@udel.edu 
 
