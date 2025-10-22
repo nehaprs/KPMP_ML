@@ -71,8 +71,13 @@ The data used in this study can be obtained from the publicly available clinical
  
 **Results**
    - 2 clusters of CKD patients obtained: one with 192 participants and another with 14 participants.
-   
-Save all outputs to the results/ directory.
+   - 9 features differ significantly between the two clusters. 7 of them are known renal markers while two (calcium and bilirubin) are indirect markers of kidney functioning.
+   - The list of significantly different features, their mean levels in each cluster, and the comparison are in Sheet1 of the following file. The second sheet briefs the biological meaning of the features.
+    https://github.com/nehaprs/KPMP_ML/blob/main/results/cluster_feature_differences.xlsx
+   - PCA Plot with the clusters indicated: 
+   <img width="590" height="490" alt="PCA" src="https://github.com/user-attachments/assets/163e95ee-d86e-4041-887c-c240ab3124f4" />
+
+outputs are saved to the results/ directory.
 
 
 Dependencies:
