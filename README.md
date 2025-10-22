@@ -42,7 +42,7 @@ conda activate environment.yml
 ## Analysis Workflow:
 
 **Data**:
-The data used in this study can be obtained from the publicly available clinaical and biomarker data from the [Kidney Precision Medicine Project](https://www.kpmp.org/).
+The data used in this study can be obtained from the publicly available clinical and biomarker data from the [Kidney Precision Medicine Project](https://www.kpmp.org/).
 
 [Clinical data](https://atlas.kpmp.org/repository/?size=n_20_n&filters%5B0%5D%5Bfield%5D=access&filters%5B0%5D%5Bvalues%5D%5B0%5D=open&filters%5B0%5D%5Btype%5D=any&filters%5B1%5D%5Bfield%5D=data_category&filters%5B1%5D%5Bvalues%5D%5B0%5D=Clinical&filters%5B1%5D%5Btype%5D=any)
 
