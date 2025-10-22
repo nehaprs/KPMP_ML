@@ -14,7 +14,7 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
 ##  Repository Structure
 
 
-├── scripts/ # Python scripts
+├── scripts/ 
 ├── results/ 
 ├── environment.yml 
 ├── config.yaml 
