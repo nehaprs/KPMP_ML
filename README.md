@@ -55,7 +55,7 @@ The data used in this study can be obtained from the publicly available clinical
    https://github.com/nehaprs/KPMP_ML/blob/main/scripts/01_consolidate_data.ipynb
  - Consolidate all the datasets, select for the first appointment per patient, and remove features without biological   relevance:
     https://github.com/nehaprs/KPMP_ML/blob/main/scripts/02_combine_and_clean.ipynb
- - Further Data Preprocessing: imputation, normalization, scaling etc:
+ - Further Data Preprocessing: imputation, encoding, and feature scaling
       https://github.com/nehaprs/KPMP_ML/blob/main/scripts/03_preprocessing_kmeans_clustering.ipynb
    
 **Model Building**
