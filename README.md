@@ -31,6 +31,7 @@ It is designed for reproducibility, modularity, and clarity. The analysis is per
    cd KPMP_ML
    
 Create and activate the conda environment:
+```bash
 conda env create -f environment.yml
 conda activate environment.yml
 
