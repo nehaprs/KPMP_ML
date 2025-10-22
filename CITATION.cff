@@ -1,1 +1,25 @@
+cff-version: 1.2.0
+title: ML on KPMP Clinical and Biomarker Data for CKD Patients
+message: "If you use this code or analysis in your work, please cite it as below."
+authors:
+  - family-names: Ng
+    given-names: Julie
+    affiliation: Univeristy of Delaware
+  - family-names: Sindhu
+    given-names: Neha
+    affiliation: Univeristy of Delaware
+  - family-names: Valipour
+    given-names: Saeideh
+    affiliation: Univeristy of Delaware
+    
+version: 1.0.0
+date-released: 2025-10-21
+
+repository-code: "https://github.com/nehaprs/KPMP_ML"
+license: MIT
+keywords:
+  - machine learning
+  - reproducible research
+  - bioinformatics
+  - unsupervised analysis
 
